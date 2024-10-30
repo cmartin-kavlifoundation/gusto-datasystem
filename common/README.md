@@ -15,5 +15,5 @@ bool = history_test(hdr, history_phrase)
 >
 > **history_phrase** = phrase to be found in HISTORY tag.
 
- * If history_phrase is not present (bool = FALSE),  it will be added to hdr.
- * If it is present (bool = TRUE), nothing is changed in the hdr.
+ * If history_phrase is not present (bool = FALSE),  it can be added.
+ * If it is present (bool = TRUE), the processing step has already been done.
